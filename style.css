@@ -6,7 +6,7 @@
 
 	Version: 0.0.1
 
-	Tags: black, red, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+	Tags: black, red, white, one-column, two-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 	Template: genesis
 	Template Version: 2.2.3
@@ -43,7 +43,6 @@
 	- Featured Content
 - Plugins
 	- Genesis eNews Extended
-	- Jetpack
 - Skip Links
 - Site Header
 	- Title Area
@@ -996,13 +995,6 @@ img.alignright,
 
 .enews form + p {
 	margin-top: 24px;
-}
-
-/* ## Jetpack
---------------------------------------------- */
-
-#wpstats {
-	display: none;
 }
 
 
