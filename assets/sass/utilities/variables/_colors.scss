@@ -1,0 +1,57 @@
+//
+// Base Colors
+//
+$white: #fff;
+$black: #333;
+$red: #c3251d;
+$light-gray: #ddd;
+$gray: #ccc;
+$dark-gray: #696969;
+$blue: #365899;
+
+//
+// Base Font Colors
+//
+$base--color: $black;
+$base--background-color: #eee;
+
+//
+// Base Link Colors
+//
+$link--color: $red;
+$link--hover--color: $black;
+
+//
+// Header Colors
+//
+$site-header__background-color: $white;
+
+//
+// Navigation Colors
+//
+$nav--link--color: $black;
+$nav--hover--color: $red;
+
+$nav-toggle--background-color: $white;
+$nav-toggle--color: $gray;
+
+$primary-nav__background-color: $white;
+$primary-nav__link--color: $nav--link--color;
+$primary-nav__hover--color: $nav--hover--color;
+
+$secondary-nav__background-color: $white;
+$secondary-nav__link--color: $nav--link--color;
+$secondary-nav__hover--color: $nav--hover--color;
+
+$sub-menu__link--background-color: $white;
+
+$pagination--background-color: $white;
+$pagination--link--color: $black;
+$pagination--hover--link--color: $white;
+$pagination--hover--background--color: $red;
+
+//
+// Footer Colors
+//
+$site-footer__background-color: $white;
+$footer-widgets__background-color: $white;

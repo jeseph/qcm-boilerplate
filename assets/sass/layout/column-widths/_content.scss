@@ -1,0 +1,14 @@
+/* ### Content */
+
+.content {
+    float: right;
+    width: 880px;
+}
+
+.content-sidebar .content {
+    float: left;
+}
+
+.full-width-content .content {
+    width: 100%;
+}
