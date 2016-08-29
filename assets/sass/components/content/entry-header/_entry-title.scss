@@ -1,0 +1,14 @@
+.entry-title {
+    font-size: 36px;
+    font-size: 3.6rem;
+
+    a {
+        color: $color--entry--title;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            color: $color--entry--title--hover;
+        }
+    }
+}

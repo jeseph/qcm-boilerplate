@@ -1,0 +1,16 @@
+//
+// Comment Content Styles
+//
+
+.comment-content {
+    clear: both;
+
+    ul > li {
+        list-style-type: disc;
+    }
+    
+}
+
+.comment .avatar {
+    margin: 0 16px 24px 0;
+}

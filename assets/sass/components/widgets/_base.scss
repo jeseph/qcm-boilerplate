@@ -1,15 +1,6 @@
-widget {
+.widget {
     margin-bottom: 40px;
     word-wrap: break-word;
-}
-
-.widget p:last-child,
-.widget ul > li:last-of-type,
-.widget-area .widget:last-of-type {
-    margin-bottom: 0;
-}
-
-.widget {
 
     ul > li {
         margin-bottom: 10px;
@@ -32,4 +23,21 @@ widget {
         margin: 0 0 0 30px;
         padding: 0;
     }
+}
+
+.widget-title {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.sidebar .widget-title a {
+    color: $color--widget--title;
+    text-decoration: none;
+}
+
+.widget p:last-child,
+.widget ul > li:last-of-type,
+.widget-area .widget:last-of-type {
+    margin-bottom: 0;
 }

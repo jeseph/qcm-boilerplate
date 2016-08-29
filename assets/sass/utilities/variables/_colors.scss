@@ -4,7 +4,7 @@
 $white: #fff;
 $black: #333;
 $red: #c3251d;
-$light-gray: #ddd;
+$light-gray: #eee;
 $gray: #ccc;
 $dark-gray: #696969;
 $blue: #365899;
@@ -12,46 +12,61 @@ $blue: #365899;
 //
 // Base Font Colors
 //
-$base--color: $black;
-$base--background-color: #eee;
+$color--base: $black;
+$color--base--background: $light-gray;
 
 //
 // Base Link Colors
 //
-$link--color: $red;
-$link--hover--color: $black;
+$color--link: $red;
+$color--link--hover: $black;
 
 //
 // Header Colors
 //
-$site-header__background-color: $white;
+$color--site-header--background: $white;
+$color--site-title: $black;
 
 //
 // Navigation Colors
 //
-$nav--link--color: $black;
-$nav--hover--color: $red;
+$color--nav: $black;
+$color--nav--hover: $red;
 
-$nav-toggle--background-color: $white;
-$nav-toggle--color: $gray;
+$color--nav-toggle: $gray;
+$color--nav-toggle--background: $white;
 
-$primary-nav__background-color: $white;
-$primary-nav__link--color: $nav--link--color;
-$primary-nav__hover--color: $nav--hover--color;
+$color--primary-nav: $color--nav;
+$color--primary-nav--hover: $color--nav--hover;
+$color--primary-nav--background: $white;
 
-$secondary-nav__background-color: $white;
-$secondary-nav__link--color: $nav--link--color;
-$secondary-nav__hover--color: $nav--hover--color;
+$color--secondary-nav: $color--nav;
+$color--secondary-nav--hover: $color--nav--hover;
+$color--secondary-nav--background: $white;
 
-$sub-menu__link--background-color: $white;
+$color--sub-menu--background: $white;
 
-$pagination--background-color: $white;
-$pagination--link--color: $black;
-$pagination--hover--link--color: $white;
-$pagination--hover--background--color: $red;
+$color--pagination: $black;
+$color--pagination--hover: $white;
+$color--pagination--background: $white;
+$color--pagination--background--hover: $red;
+
+//
+// Entry Colors
+//
+$color--entry--background: $white;
+$color--entry--title: $black;
+$color--entry--title--hover: $red;
+$color--entry--code--background: $black;
+
+//
+// Widget Colors
+//
+$color--widget--title: $black;
+$color--sidebar--widget--background: $white;
 
 //
 // Footer Colors
 //
-$site-footer__background-color: $white;
-$footer-widgets__background-color: $white;
+$color--site-footer--background: $white;
+$color--footer-widgets--background: $white;

@@ -1,7 +1,25 @@
-.site-header {
-    background-color: $site-header__background-color;
-}
+//
+// Site Header Base Styles
+//
 
-.site-header > .wrap {
-    padding: 20px 0;
+.site-header {
+    background-color: $color--site-header--background;
+
+    > .wrap {
+        padding: 20px 0;
+    }
+    
+    @media only screen and (max-width: 1023px) {
+
+        .wrap {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        
+        .search-form {
+            float: none;
+            margin: 16px auto;
+        }
+        
+    }  
 }

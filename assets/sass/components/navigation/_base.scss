@@ -28,7 +28,7 @@
 }
 
 .genesis-nav-menu a {
-    color: $primary-nav__link--color;
+    color: $color--primary-nav;
     text-decoration: none;
     display: block;
     padding: 32px 20px;
@@ -39,7 +39,7 @@
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-    color: $nav--hover--color;
+    color: $color--nav--hover;
     text-decoration: underline;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .genesis-nav-menu .sub-menu a {
-    background-color: $sub-menu__link--background-color;
+    background-color: $color--sub-menu--background;
     border: 1px solid #eee;
     border-top: 0;
     font-size: 14px;

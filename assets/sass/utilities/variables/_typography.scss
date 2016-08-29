@@ -1,19 +1,62 @@
 //
-// Base Font Sizes
+// Size Globals
 //
-$base--font--ize: 20;
+$x-small: 14;
+$small: 16:
+$normal: 18;
+$large: 20;
+$x-large: 24;
+
+$large-heading: 36;
+$medium-heading: 30;
+$small-heading: 24;
 
 //
-// Navigation Font Sizes
+// Base
 //
-$nav--font--size: 16;
-
-$pagination--font--size: 16;
-
-//
-// Entry Font Sizes
-//
+$size--base: $large; // 20
+$size--base--mobile: snormal; // 18
 
 //
-// Widget Font Sizes
+// Header
 //
+$size--site-title: $medium-heading; // 30 
+
+//
+// Navigation
+//
+$size--nav: $small; // 16
+$size--sub-menu: $x-small; // 14
+$size--pagination: $small; // 16
+
+//
+// Entry Content
+//
+$size--entry-title: $large-heading; // 36
+$size--comments: $small; // 16
+$size--entry-meta: $small;
+
+//
+// Post Elements
+//
+$size--blockquote: 30;
+$size--breadcrumbs: $small; // 16
+$size--wp-caption: $x-small; // 14
+
+//
+// Widgets
+//
+$size--sidebar: $small; // 16
+$size--widget-title: $small;
+$size--featured-content--title: $large; // 20
+
+//
+// Plugins
+//
+$size--enews: $small; // 16
+
+//
+// Footer
+//
+$size--footer: $small; // 16
+$size--footer-widgets: $normal; // 18

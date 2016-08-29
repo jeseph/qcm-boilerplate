@@ -21,8 +21,8 @@
     }
 
     a {
-        background-color: $pagination--background-color;
-        color: $pagination--link--color;
+        background-color: $color--pagination--background;
+        color: $color--pagination;
         cursor: pointer;
         display: inline-block;
         font-size: 16px;
@@ -35,8 +35,8 @@
     a:hover,
     a:focus,
     .active a {
-        background-color: $pagination--hover--background--color;
-        color: $pagination--hover--link--color;
+        background-color: $color--pagination--background--hover;
+        color: $color--pagination--hover;
     }
 
 }   

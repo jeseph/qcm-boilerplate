@@ -2,9 +2,31 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-    background-color: $footer-widgets__background-color;
+    background-color: $color--footer-widgets--background;
     font-size: 18px;
     font-size: 1.8rem;
     clear: both;
     padding: 60px 0;
+    
+    .widget-area {
+        float: left;
+        margin-left: $width--gutter;
+        width: $width--footer-widgets;
+        
+        @media only screen and (max-width: 860px) {
+            margin: 0;
+            width: 100%;
+        }
+        
+    }
+    
+    .first {
+        clear: both;
+        margin-left: 0;
+    }
+    
+}
+
+.footer-widgets-3 {
+    float: right;
 }

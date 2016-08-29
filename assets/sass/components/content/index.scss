@@ -2,4 +2,7 @@
 ---------------------------------------------------------------------------------------------------- */
 
 @import "base";
-@import "meta";
+@import "entry-meta";
+@import "entry-header/index";
+@import "entry-content/index";
+@import "entry-footer/index";

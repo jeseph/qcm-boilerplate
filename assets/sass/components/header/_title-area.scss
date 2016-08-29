@@ -5,12 +5,22 @@
     float: left;
     padding: 10px 0;
     width: 300px;
+    
+    @media only screen and (max-width: 1023px) {
+        width: 100%;
+    }
+    
 }
 
 .header-image .title-area {
     margin: 0 auto;
     max-width: 300px;
     padding: 0;
+    
+    @media only screen and (max-width: 1023px) {
+        float: none;
+    }
+        
 }
 
 .header-full-width .title-area {
@@ -28,7 +38,7 @@
 .site-title a,
 .site-title a:hover,
 .site-title a:focus {
-    color: #333;
+    color: $color--site-title;
     text-decoration: none;
 }
 
@@ -56,4 +66,14 @@
 .header-image .site-title {
     display: block;
     text-indent: -9999px;
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .site-description,
+    .site-header .title-area,
+    .site-title {
+        text-align: center;
+    }
+    
 }

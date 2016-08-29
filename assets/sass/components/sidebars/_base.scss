@@ -2,11 +2,19 @@
     font-size: 16px;
     font-size: 1.6rem;
     margin-bottom: 40px;
-
-
-    .sidebar .widget {
-        background-color: #fff;
-        padding: 40px;
-    }
     
+    @media only screen and (max-width: 860px) {
+        margin-bottom: 5%;
+    }
+
+    .widget {
+        background-color: $color--sidebar--widget--background;
+        padding: 40px;
+        
+        @media only screen and (max-width: 860px) {
+            padding: 30px;
+            margin-bottom: 5%;
+        }
+        
+    }   
 }

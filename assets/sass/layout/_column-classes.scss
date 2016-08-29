@@ -1,6 +1,5 @@
 /* ## Column Classes
 --------------------------------------------- */
-/* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
 
 .five-sixths,
 .four-sixths,
@@ -12,47 +11,47 @@
 .three-sixths,
 .two-fourths,
 .two-sixths,
-.two-thirds,
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
+.two-thirds {
     float: left;
-    margin-left: 2.564102564102564%;
+    margin-left: $width--gutter;
+    
+    @media only screen and (max-width: 860px) {
+        margin: 0;
+        width: 100%;
+    }
+    
 }
 
 .one-half,
 .three-sixths,
 .two-fourths {
-    width: 48.717948717948715%;
+    width: $width--column--one-half;
 }
 
 .one-third,
-.two-sixths,
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
-    width: 31.623931623931625%;
+.two-sixths {
+    width: $width--column--one-third;
 }
 
 .four-sixths,
 .two-thirds {
-    width: 65.81196581196582%;
+    width: $width--column--two-thirds;
 }
 
 .one-fourth {
-    width: 23.076923076923077%;
+    width: $width--column--one-fourth;
 }
 
 .three-fourths {
-    width: 74.35897435897436%;
+    width: $width--column--three-fourths;
 }
 
 .one-sixth {
-    width: 14.52991452991453%;
+    width: $width--column--one-sixth;
 }
 
 .five-sixths {
-    width: 82.90598290598291%;
+    width: $width--column--five-sixths;
 }
 
 .first {

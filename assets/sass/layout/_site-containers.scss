@@ -23,8 +23,22 @@
     clear: both;
     padding-top: 40px;
     word-wrap: break-word;
+    
+    @media only screen and (max-width: 860px) {
+        padding: 5% 5% 0;
+    }
+    
 }
 
 .landing-page .site-inner {
     max-width: 800px;
+}
+
+@media only screen and (max-width: 860px) {
+
+    .wrap {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
 }

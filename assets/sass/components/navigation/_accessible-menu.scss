@@ -18,8 +18,8 @@
     
     @media only screen and (max-width: 1023px) {
         border-width: 0;
-        background-color: $nav-toggle--background-color;
-        color: $nav-toggle--color;
+        background-color: $color--nav-toggle--background;
+        color: $color--nav-toggle;
         display: block;
         margin: 0 auto;
         overflow: hidden;
