@@ -8,7 +8,18 @@
  * @link        https://qcmny.com
  * @license     GNU General Public License 2.0+
  */
-namespace QCM\Boilerplate\Functions\Structure;
+namespace QCM\Boilerplate;
+
+/**
+ * Unregister menu callbacks.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function unregister_menu_callbacks() {
+	remove_action( 'genesis_after_header', 'genesis_do_subnav' );
+}
 
 //* Reposition the secondary navigation menu
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );

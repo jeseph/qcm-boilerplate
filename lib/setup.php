@@ -10,8 +10,7 @@
  */
 namespace QCM\Boilerplate;
 
-add_action( 'genesis-setup', __NAMESPACE__ . 'setup_child_theme' );
-
+add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
 /**
  * Setup child theme.
  *
@@ -19,17 +18,24 @@ add_action( 'genesis-setup', __NAMESPACE__ . 'setup_child_theme' );
  *
  * @return void
  */
-function( 'setup_child_theme' ) {
-
-    //* Set Localization (do not remove)
-    load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
-
+function setup_child_theme() {
+	load_child_theme_textdomain( CHILD_TEXT_DOMAIN, apply_filters( 'child_theme_textdomain', CHILD_THEME_DIR . '/languages', CHILD_TEXT_DOMAIN ) );
+	
     unregister_genesis_callbacks();
     
-    add_theme_supports();
-    
-    add_new_image_sizes();
-    
+	add_theme_supports();
+	add_new_image_sizes();
+}
+
+/**
+ * Unregister Genesis callbacks.  We do this here because the child theme loads before Genesis.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function unregister_genesis_callbacks() {
+	unregister_menu_callbacks();
 }
 
 /**
@@ -39,7 +45,7 @@ function( 'setup_child_theme' ) {
  *
  * @return void
  */
-function( 'add_theme_supports') {
+function add_theme_supports() {
     
     $config = array(
         'html5' => array( 
@@ -68,7 +74,7 @@ function( 'add_theme_supports') {
             'primary' => __( 'After Header Menu', CHILD_TEXT_DOMAIN ), 
             'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN ) 
         ),
-        'genesis-responsive-viewport' => null.
+        'genesis-responsive-viewport' => null,
         'custom-background' => null,
         'genesis-after-entry-widget-area' => null,
         'genesis-footer-widgets' => 3,
@@ -87,7 +93,7 @@ function( 'add_theme_supports') {
  *
  * @return void
  */
-function adds_new_image_sizes() {
+function add_new_image_sizes() {
 	$config = array(
 		'featured-image' => array(
 			'width'  => 720,
