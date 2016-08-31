@@ -3,17 +3,17 @@
 
 .featured-content {
 
-    .entry {
-        background: none;
-        padding: 0;
+  .entry {
+    background: none;
+    padding: 0;
 
-            &:last-of-type {
-                margin-bottom: 0;
-            }
-    }
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+  }
 
-    .entry-title {
-        @include rem( font-size, $size--featured-content--title );
-    }
-    
-}    
+  .entry-title {
+    @include rem( font-size, $size--featured-content--title );
+  }
+  
+}  

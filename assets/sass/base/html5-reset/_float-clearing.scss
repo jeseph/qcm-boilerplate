@@ -15,8 +15,8 @@
 .site-inner:before,
 .widget:before,
 .wrap:before {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .author-box:after,
@@ -34,7 +34,7 @@
 .site-inner:after,
 .widget:after,
 .wrap:after {
-    clear: both;
-    content: " ";
-    display: table;
+  clear: both;
+  content: " ";
+  display: table;
 }
