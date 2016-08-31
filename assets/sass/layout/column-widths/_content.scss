@@ -2,10 +2,19 @@
 
 .content {
     float: right;
-    width: 880px;
+    width: $width--content; // 880px
     
-    @media only screen and (max-width: 1340px) {
-        width: 800px;
+    @media only screen and (max-width: $media--x-large-screen) {
+        width: $width--content--x-large; // 800px
+    }
+    
+    @media only screen and (max-width: $media--medium-screen) {
+        width: $width--content--medium; // 620px
+    }
+    
+    @media only screen and (max-width: $media--small-screen) {
+        float: none;
+        width: 100%;
     }
     
 }
@@ -15,5 +24,6 @@
 }
 
 .full-width-content .content {
+    float: none;
     width: 100%;
 }

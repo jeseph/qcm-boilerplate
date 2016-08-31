@@ -15,7 +15,7 @@
     float: left;
     margin-left: $width--gutter;
     
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: $media--small-screen) {
         margin: 0;
         width: 100%;
     }

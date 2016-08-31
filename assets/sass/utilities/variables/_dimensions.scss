@@ -2,6 +2,13 @@
 // Base Widths
 //
 $width--gutter: 2.564102564102564%;
+$width--max: 1280px;
+$width--max--x-large: 1140px;
+$width--max--large: 960px;
+$width--max--medium: 800px;
+$width--content: 880px;
+$width--content--x-large: 800px;
+$width--content--medium: 620px;
 
 //
 // Column Widths
@@ -17,4 +24,7 @@ $width--column--five-sixths: 82.90598290598291%;
 //
 // Component Widths
 //
+$width--header-image--title-area: 300px;
+$width--sidebar-primary: 360px;
+$width--sidebar-primary--x-large: 300px;
 $width--footer-widgets: $width--column--one-third;

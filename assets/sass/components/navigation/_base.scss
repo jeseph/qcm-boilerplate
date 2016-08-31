@@ -4,17 +4,16 @@
 
 .genesis-nav-menu {
     clear: both;
-    font-size: 16px;
-    font-size: 1.6rem;
+    @include rem( font-size, $size--nav );
     font-weight: 600;
     line-height: 1;
     width: 100%;
     
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $media--medium-screen) {
         text-align: center;
         
         li,
-        .site-header ul& {
+        .site-header ul & {
             float: none;
         }
     }
@@ -61,8 +60,7 @@
     background-color: $color--sub-menu--background;
     border: 1px solid #eee;
     border-top: 0;
-    font-size: 14px;
-    font-size: 1.4rem;
+    @include rem( font-size, $size--sub-menu );
     padding: 20px;
     position: relative;
     width: 200px;

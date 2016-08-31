@@ -3,8 +3,7 @@
 
 .footer-widgets {
     background-color: $color--footer-widgets--background;
-    font-size: 18px;
-    font-size: 1.8rem;
+    @include rem( font-size, $size--footer-widgets );
     clear: both;
     padding: 60px 0;
     
@@ -13,7 +12,7 @@
         margin-left: $width--gutter;
         width: $width--footer-widgets;
         
-        @media only screen and (max-width: 860px) {
+        @media only screen and (max-width: $media--small-screen) {
             margin: 0;
             width: 100%;
         }

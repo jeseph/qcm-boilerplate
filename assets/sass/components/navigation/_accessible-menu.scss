@@ -16,7 +16,7 @@
     display: none;
     visibility: hidden;
     
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $media--medium-screen) {
         border-width: 0;
         background-color: $color--nav-toggle--background;
         color: $color--nav-toggle;
@@ -35,7 +35,7 @@
     
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $media--medium-screen) {
 
     .menu-toggle {
         border-top: 1px solid #eee;

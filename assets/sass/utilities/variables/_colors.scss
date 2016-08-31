@@ -32,7 +32,6 @@ $color--site-title: $black;
 //
 $color--nav: $black;
 $color--nav--hover: $red;
-
 $color--nav-toggle: $gray;
 $color--nav-toggle--background: $white;
 
@@ -46,6 +45,8 @@ $color--secondary-nav--background: $white;
 
 $color--sub-menu--background: $white;
 
+$color--breadcrumbs--background: $white;
+
 $color--pagination: $black;
 $color--pagination--hover: $white;
 $color--pagination--background: $white;
@@ -58,6 +59,11 @@ $color--entry--background: $white;
 $color--entry--title: $black;
 $color--entry--title--hover: $red;
 $color--entry--code--background: $black;
+
+//
+// Comment Colors
+//
+$color--comments--background: $white; 
 
 //
 // Widget Colors

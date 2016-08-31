@@ -2,7 +2,6 @@
 --------------------------------------------- */
 
 p.entry-meta {
-    font-size: 16px;
-    font-size: 1.6rem;
+    @include rem( font-size, $size--entry-meta );
     margin-bottom: 0;
 }

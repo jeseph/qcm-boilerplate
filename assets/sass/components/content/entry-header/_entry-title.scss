@@ -1,6 +1,5 @@
 .entry-title {
-    font-size: 36px;
-    font-size: 3.6rem;
+    @include rem( font-size, $size--entry-title );
 
     a {
         color: $color--entry--title;

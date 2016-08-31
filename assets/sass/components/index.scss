@@ -2,13 +2,12 @@
 // Component Modules
 //
 
-@import "widgets/index";
-
 @import "comments/index";
-@import "entry/index";
-@import "footer/index";
 @import "header/index";
 @import "navigation/index";
-@import "buttons";
+@import "content/index";
+@import "author-box/index";
+@import "after-entry/index";
 @import "sidebars/index";
-@import "archives/index";
+@import "widgets/index";
+@import "footer/index";

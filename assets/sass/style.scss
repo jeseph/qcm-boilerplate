@@ -14,8 +14,14 @@
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+@import "bourbon";
+@import "neat";
+@import '../../node_modules/sass-rem/rem';
+
+@import "utilities/index";
+
 @import "base/index";
 @import "layout/index";
-@import "common-classes/index";
 @import "components/index";
 @import "plugins/index";
+@import "templates/index";

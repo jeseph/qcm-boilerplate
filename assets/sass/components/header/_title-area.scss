@@ -6,7 +6,7 @@
     padding: 10px 0;
     width: 300px;
     
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $media--medium-screen) {
         width: 100%;
     }
     
@@ -14,10 +14,10 @@
 
 .header-image .title-area {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: $width--header-image--title-area; // 300px
     padding: 0;
     
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $media--medium-screen) {
         float: none;
     }
         
@@ -29,8 +29,7 @@
 }
 
 .site-title {
-    font-size: 30px;
-    font-size: 3rem;
+    @include rem( font-size, $size--site-title );
     font-weight: 700;
     line-height: 1.2;
 }
@@ -51,8 +50,7 @@
 }
 
 .site-description {
-    font-size: 16px;
-    font-size: 1.6rem;
+    @include rem( font-size, $size--site-description );
     font-weight: 400;
     line-height: 1.5;
 }
@@ -68,7 +66,7 @@
     text-indent: -9999px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $media--medium-screen) {
 
     .site-description,
     .site-header .title-area,

@@ -1,4 +1,4 @@
-/* ## WordPress
+/* ## WordPress Core Elements
 --------------------------------------------- */
 
 a.aligncenter img {
@@ -50,8 +50,7 @@ img.alignright,
 }
 
 .wp-caption-text {
-    font-size: 14px;
-    font-size: 1.4rem;
+    @include rem( font-size, $size--wp-caption );
     font-weight: 600;
     margin: 0;
     text-align: center;

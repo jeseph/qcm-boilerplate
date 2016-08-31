@@ -13,8 +13,7 @@
     }
 
     .entry-title {
-        font-size: 20px;
-        font-size: 2rem;
+        @include rem( font-size, $size--featured-content--title );
     }
     
 }    

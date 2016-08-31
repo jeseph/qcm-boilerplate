@@ -26,8 +26,7 @@
 }
 
 .widget-title {
-    font-size: 18px;
-    font-size: 1.8rem;
+    font-size: rem ( $size--widget-title );
     margin-bottom: 20px;
 }
 
